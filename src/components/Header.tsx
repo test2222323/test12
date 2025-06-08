@@ -20,6 +20,12 @@ const Header: React.FC = () => {
           {/* Navigation */}
           <nav className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
+              <Link
+                to="/"
+                className="text-gray-300 hover:text-cyan-400 px-3 py-2 text-sm font-medium uppercase tracking-wider transition-all duration-300 hover:shadow-[0_0_10px_rgba(6,182,212,0.5)] border-b-2 border-transparent hover:border-cyan-400"
+              >
+                Новости
+              </Link>
               <a
                 href="#"
                 className="text-gray-300 hover:text-cyan-400 px-3 py-2 text-sm font-medium uppercase tracking-wider transition-all duration-300 hover:shadow-[0_0_10px_rgba(6,182,212,0.5)] border-b-2 border-transparent hover:border-cyan-400"
