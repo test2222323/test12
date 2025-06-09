@@ -3,7 +3,7 @@ import { Phone, ExternalLink } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-900 border-t border-purple-500 shadow-[0_0_20px_rgba(168,85,247,0.3)]">
+    <footer id="contacts" className="bg-gray-900 border-t border-purple-500 shadow-[0_0_20px_rgba(168,85,247,0.3)]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Contacts */}
@@ -28,7 +28,6 @@ const Footer: React.FC = () => {
               Мы в соцсетях
             </h3>
             <div className="flex space-x-4">
-              {/* {INSERT_SOCIAL_ICONS_HERE} */}
               <div className="flex space-x-3">
                 <div className="w-8 h-8 bg-gradient-to-r from-cyan-500 to-purple-500 rounded-lg flex items-center justify-center">
                   <span className="text-white text-xs font-bold">VK</span>
